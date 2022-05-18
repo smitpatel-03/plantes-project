@@ -5,6 +5,11 @@ const fs = require("fs");
 const result = [];
 
 fs.createReadStream('kepler_data.csv')
+    .pipe(parse({
+        comments: '#',
+        columns: true,
+    }))
+    
     .on("data", (data) => {
         result.push(data);
     })

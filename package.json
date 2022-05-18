@@ -1,0 +1,28 @@
+{
+  "name": "plantes-project",
+  "version": "1.0.0",
+  "description": "planets project that discover plantes around the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smitpatel-03/plantes-project.git"
+  },
+  "keywords": [
+    "planets",
+    "world",
+    "serach",
+    "discover"
+  ],
+  "author": "Smit Patel (mr. Smile)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smitpatel-03/plantes-project/issues"
+  },
+  "homepage": "https://github.com/smitpatel-03/plantes-project#readme",
+  "dependencies": {
+    "csv-parse": "^5.0.4"
+  }
+}
